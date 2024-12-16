@@ -1,0 +1,47 @@
+# Ignore everything by default
+*
+# Allow all directories
+!*/
+
+# Ignore vendor directory
+public_html/assets/uploads/media/**
+bare-repos/**
+application/logs/**
+public_html/.user.ini
+public_html/php.ini
+
+# Allow specific files or directories
+!.gitignore
+!application/
+!application/**
+!mail/
+!mail/**
+!public_html/**
+!system/
+!system/**
+!tmp/
+!tmp/**
+!ssl
+!ssl/**
+!admin-api-doc.txt
+!api-doc.txt
+!backup.php
+!composer- setup.php
+!composer.json
+!composer.lock
+!composer.phar
+!countries.sql
+!default.php
+!delivery-boy-api-doc.txt
+!eshop_vendor.sql
+!eshopdb-servercake-created.sql
+!gulpfile_classic.js
+!gulpfile_modern.js
+!gulpfile.js
+!package-lock.json
+!package.json
+!README.md
+!seller-api-doc.txt
+!webhook.log
+!vendor/
+!vendor/**
